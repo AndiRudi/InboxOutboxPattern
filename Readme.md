@@ -4,7 +4,7 @@ This repository contains a console application simulating the inbox and outbox p
 
 ## Setup
 
-Make sure you have Postgres running (locally or via docker) and update the username and password in Service.cs files to match. Then execute migrations with the following commands
+Make sure you have Postgres running (locally or via docker) and update the username and password in Program.cs files to match. Then execute migrations with the following commands
 
 ```bash
 dotnet ef database update --context InboxOutboxPattern.Service1.ServiceDbContext

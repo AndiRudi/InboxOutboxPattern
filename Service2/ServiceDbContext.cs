@@ -9,7 +9,7 @@ namespace InboxOutboxPattern.Service2
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=localhost;Database=InboxOutboxPatternService2;Username=postgres;Password=postgres");
+            optionsBuilder.UseNpgsql($"Host=localhost;Database=InboxOutboxPatternService2;Username={Program.PostgresLogin};Password={Program.PostgresPassword}");
         }
     }
 
