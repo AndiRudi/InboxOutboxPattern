@@ -21,3 +21,6 @@ dotnet ef migrations add Initial --context InboxOutboxPattern.Service2.ServiceDb
 ## Running
 
 I suggest to start the project in Visual Studio Code because to learn about the details a debugger is helpful.
+
+
+Buddy
